@@ -1,0 +1,7 @@
+pipeline:
+  build:
+    image: fpco/stack-build:latest
+    commands:
+      - stack build
+
+
